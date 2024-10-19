@@ -5,10 +5,16 @@ import 'package:flutter_bloc_example/login/login_page.dart';
 
 import 'counter/counter_bloc.dart';
 import 'counter/counter_page/couter_page.dart';
+import 'getxexamples/ex1/Screen1.dart';
+import 'getxexamples/ex2/my_app_navigation.dart';
+import 'getxexamples/ex3/rx_state_manager.dart';
 
 void main() {
   // runApp(MyApp());
-  runApp(LoginApp());
+  // runApp(LoginApp());
+  // runApp(Screen1());
+  // runApp(MyAppNavigation());
+  runApp(RxStateManager());
 }
 
 class LoginApp extends StatelessWidget {
